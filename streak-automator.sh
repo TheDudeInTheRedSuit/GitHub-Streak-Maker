@@ -6,8 +6,10 @@ gh repo create my-streak --public --clone
 cd my-streak
 git init
 python3 ~/github-streak-maker/filecreator.py
-git push
+git add .
 python3 ~/github-streak-maker/filecreator.py
-git push
+git add .
 python3 ~/github-streak-maker/filecreator.py
+git add .
+git commit -m "Initial commit"
 git push
