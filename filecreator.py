@@ -5,7 +5,7 @@ def makefile(text, nooflines):
         f.write(f"{text}\n")
 
 lines = input("how many lines?")
-text = input("what text do you want placed")
+text = "im too tired to code"
 
 makefile(text, lines)
 
