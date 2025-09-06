@@ -5,9 +5,9 @@ gh auth login
 gh repo create my-streak --public --clone
 cd my-streak
 git init
-python3 ~/github-streak-maker.py
+python3 ~/github-streak-maker/filecreator.py
 git push
-python3 ~/github-streak-maker.py
+python3 ~/github-streak-maker/filecreator.py
 git push
-python3 ~/github-streak-maker/github-streak-maker.py
+python3 ~/github-streak-maker/filecreator.py
 git push
